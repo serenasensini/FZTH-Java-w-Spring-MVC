@@ -1,0 +1,5 @@
+JDK==1.11
+Tomcat==9.0.17
+Intellij==2018.0.3
+Maven==3
+Spring==3.1
