@@ -15,7 +15,7 @@ Il file web.xml è il file più importante: il nome della servlet dev'essere ugu
 
 > Un/a servlet è un oggetto scritto in linguaggio Java che opera all'interno di un server web (es. Tomcat, Jetty) oppure un server per applicazioni (es. WildFly, GlassFish) permettendo la creazione di applicazione web.
 
-web.xml
+__web.xml__
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -35,7 +35,7 @@ web.xml
 </web-app>
 ```
 
-pom.xml
+__pom.xml__
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -200,7 +200,7 @@ pom.xml
 
 Nel file _spring-servlet.xml_ cambiare il base-package del componente e il prefisso dove il bean deve cercare le jsp.
 
-spring-servlet.xml
+__spring-servlet.xml__
 
 ```
 <!-- beans declaration: where spring should take its definition; it has to be almost always like this -->
@@ -225,7 +225,7 @@ spring-servlet.xml
 
 I file Controller rispettano il pattern MVC: sono responsabili del controllo del flusso dell'esecuzione dell'applicazione. Quando si effettua una richiesta (significa richiesta di una pagina) all'applicazione MVC, un controllore è responsabile della restituzione della risposta a tale richiesta. Il controller può eseguire una o più azioni.
 
-HomeController.java
+__HomeController.java__
 
 ```
 package com.blank.project;
@@ -255,7 +255,7 @@ public class HomeController {
 
 Nel file "home.jsp" avremo la View della nostra request.
 
-home.jsp
+__home.jsp__
 
 ```
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
